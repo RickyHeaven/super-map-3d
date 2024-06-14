@@ -1,9 +1,34 @@
 {
-  "name": "super-map-3d",
+  "name": "@zhangqingcq/super-map-3d",
   "version": "0.0.1",
   "description": "super map 3d webgl",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "files": [
+    "Assets",
+    "ThirdParty",
+    "Widgets",
+    "Workers",
+    "SuperMap3D-es6.js",
+    "SuperMap3D.js",
+    "SuperMap3D-es6.d.ts"
+  ],
   "main": "SuperMap3D-es6.js",
   "types": "SuperMap3D-es6.d.ts",
+  "exports": {
+    ".": {
+      "types": "./SuperMap3D-es6.d.ts",
+      "import": "./SuperMap3D-es6.js",
+      "require": "./SuperMap3D.js"
+    },
+    "./*": "./*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickyHeaven/super-map-3d.git"
+  },
   "keywords": [
     "super",
     "map",
@@ -13,5 +38,9 @@
     "zhangqingcq"
   ],
   "author": "RickyHeaven",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RickyHeaven/super-map-3d/issues"
+  },
+  "homepage": "https://github.com/RickyHeaven/super-map-3d#readme"
 }
