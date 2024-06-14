@@ -1,0 +1,17 @@
+{
+  "name": "super-map-3d",
+  "version": "0.0.1",
+  "description": "super map 3d webgl",
+  "main": "SuperMap3D-es6.js",
+  "types": "SuperMap3D-es6.d.ts",
+  "keywords": [
+    "super",
+    "map",
+    "3d",
+    "webgl",
+    "ricky",
+    "zhangqingcq"
+  ],
+  "author": "RickyHeaven",
+  "license": "MIT"
+}
