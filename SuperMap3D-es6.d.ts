@@ -393,7 +393,7 @@ export class Viewer {
    * @param [options.duration = 3.0] - The duration of the flight in seconds.
    * @param [options.maximumHeight] - The maximum height at the peak of the flight.
    * @param [options.offset] - The offset from the target in the local east-north-up reference frame centered at the target.
-   * @returns A Promise that resolves to true if the flight was successful or false if the target is not currently visualized in the scene or the flight was cancelled.
+   * @returns A Promise that resolves to true if the flight was successful or false if the target is not currently visualized in the scene or the flight was cancelled. //TODO: Cleanup entity mentions
    */
   // flyTo(target: Entity | Entity[] | EntityCollection | DataSource | ImageryLayer | Cesium3DTileset | TimeDynamicPointCloud | Promise<Entity | Entity[] | EntityCollection | DataSource | ImageryLayer | Cesium3DTileset | TimeDynamicPointCloud>, options?: {
   //   duration?: number;
