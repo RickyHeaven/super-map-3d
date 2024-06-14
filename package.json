@@ -1,6 +1,6 @@
 {
   "name": "@zhangqingcq/super-map-3d",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "super map 3d webgl",
   "publishConfig": {
     "access": "public"
